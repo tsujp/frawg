@@ -1,0 +1,26 @@
+{
+  "name": "frawg",
+  "version": "0.1.0",
+  "description": "Farm those Zupass frawgs",
+  "type": "module",
+  "scripts": {
+    "frawg": "node build.mjs",
+    "build": "node build.mjs",
+    "dev": "node build.mjs --watch",
+    "fmt": "dprint fmt"
+  },
+  "dependencies": {
+    "@pcd/passport-crypto": "^0.8.0",
+    "@pcd/passport-interface": "^0.8.0",
+    "@pcd/pcd-collection": "^0.8.0",
+    "@pcd/semaphore-signature-pcd": "^0.8.0",
+    "@semaphore-protocol/identity": "^3.15.0",
+    "esbuild": "^0.19.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
